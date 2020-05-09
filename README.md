@@ -20,7 +20,7 @@ Modules:
   - Finds duplicate files that have names extended from other files
   - Ex. (cat.jpg -> cat1.jpg or cat(1).jpg)
   - WARNING: THIS MODULE MUST BE RUN INSIDE THE TARGET DIRECTORY AND
-  FILENAMES MUST HAVE SPACES CHANGED TO '~x~'
+  FILENAMES MUST HAVE SPACES CHANGED TO "~x~"
 - Reset-Dates
   - This module uses exiftool (must be already installed) to reset the date metadata
   - A file may say created today but actually have the true date hidden inside
