@@ -16,10 +16,11 @@ Modules:
   - Finds duplicate files (photos/videos) that are particularly evasive
   - The module uses exiftool (must already be installed) to create hashes of metadata and
   find files matches. This works well with images that have camera and exposure info in them
-- Similar-Names
+- Similar-Names (Beta)
   - Finds duplicate files that have names extended from other files
   - Ex. (cat.jpg -> cat1.jpg or cat(1).jpg)
-  - WARNING: THIS MODULE MUST BE RUN INSIDE THE TARGET DIRECTORY
+  - WARNING: THIS MODULE MUST BE RUN INSIDE THE TARGET DIRECTORY AND
+  FILENAMES MUST HAVE SPACES CHANGED TO '~x~'
 - Reset-Dates
   - This module uses exiftool (must be already installed) to reset the date metadata
   - A file may say created today but actually have the true date hidden inside
